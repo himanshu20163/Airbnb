@@ -301,4 +301,11 @@ button{
     justify-content: space-evenly;
     display: flex;
 }
+img.one {
+    position: absolute;
+    margin-left: 95px;
+    margin-top: -220px;
+    height: 130px;
+    width: 150px;
+}
 
