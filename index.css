@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+}
+.main_container{
+    height:100%;
+    width:100%;
+}
+.header{
+    height:700px;
+    width:100%;
+    background-image: url(./img/HERO_BG.png);
+}
+.top_header{
+    padding-top: 20px;
+    width:100%;
+    height:50px;
+    display: flex;
+}
+.top_header .logo{
+    padding-left: 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.top_header .menu{
+    padding-right: 10px;
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+.top_background{
+    border-radius: 4px;
+    padding: 15px;
+    margin-left: 90px;
+    margin-top:50px;
+    width:30%;
+    height:70%;
+    background-color:white;
+}
+.top_background h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+.top_background form{
+   display: flex;
+   flex-direction: column;
+
+}
+form input{
+    margin:10px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 2px;
+}
+form label{
+    margin: 10px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.top_background form .chekout{
+    width: 100%;
+    display: flex;
+}
+.arrive{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    width:98%;
+    height: 100%;
+    display: flex;
+    justify-content:end;
+}
+button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    width:150px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #FF5A5F;
+}
+.explore{
+    height: 300px;
+}
+.explore_airbnb{
+    padding: 20px 100px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.explore_heading{
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.Logements{
+    margin:10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(207, 207, 207);
+}
+.Logements h4{
+    margin-left: 10px;
+}
+.Logements img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.airbnb_plus{
+    height:350px;
+}
+.Hébergements_heading{
+    margin-left: 100px;
+}
+.plus_bg{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    width:1150px;
+    height: 250px;
+    background-image: url(./img/Rectangle_5.png);
+}
+.plus_bg img{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.plus_bg button{
+    margin-left: 400px;
+    margin-top: 160px;
+    width:250px;
+    background-color: white;
+    color:black;
+}
+.plus_bg .fa-arrow-right {
+    margin-top: 180px;
+    position: absolute;
+    /* margin-right: 36px; */
+    margin-left: -25px;
+}
+.aventure{
+    margin-top:20px;
+    margin-left:6rem;
+    margin-right:10rem;
+    height:30rem;
+    width:72rem;
+}
+.aventure1{
+    margin-top:20px;
+    margin-left:6rem;
+    margin-right:10rem;
+    height:40rem;
+    width:72rem;
+}
+.aventure2{
+    margin-top:10px;
+    margin-left:6rem;
+    margin-right:10rem;
+    height:30rem;
+    width:72rem;
+}
+.package{
+    margin-top: 20px;
+    width:72rem;
+    height: 22rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Cayman_Islands{
+    width:15%; 
+}
+.Cayman_Islands p {
+    margin:10px;
+}
+.price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#008489;
+}
+.title{
+    font-size:15px;
+    font-weight: bold;
+}
+.londe{
+    margin-top:50px;
+    margin-left: 100px;
+    margin-right: 80px;
+    width:72rem;
+    height:40rem;
+}
+.heading_monde{
+    margin-top: 100px;
+}
+.winter{
+    display: flex;
+    margin-top: 50px;
+    height: 35rem;
+    width: 74rem;
+    flex-wrap: wrap;
+}
+.house{
+    margin: 0px;
+    width: 295px;
+    height: 10rem;
+}
+.superhost{
+    height: 2rem;
+    width:17rem;
+    display: flex;
+}
+.superhost .left{
+    font-size: 12px;
+    height: 2rem;
+    width:10rem;
+    display: flex;
+    align-items: right;
+}
+.superhost .left p{
+    margin-left: 10px;
+}
+.superhost .right{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height: 2rem;
+    width:8rem;
+}
+#btn_superhost {
+    border-style: none;
+    width: 4rem;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 200;
+}
+.house_img img {
+    width: 270px;
+}
+.package1{
+    margin-top: 20px;
+    width:72rem;
+    height: 22rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Cayman_Islands img:hover{
+     transition-delay: 5s;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+     transform: rotate(2deg); 
+    
+}
+.footer{
+    position: sticky;
+    display: flex;
+    height: 4rem;
+    width: 84rem;
+    border:1px solid rgb(173, 173, 173);
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px black;
+}
+.left{
+    width:45rem;
+}
+.right{
+    width:26rem;
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    width:10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.money{
+    width:4rem;
+    justify-content: space-evenly;
+    display: flex;
+}
+

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.first_viewport{
+    height:100vh;
+    width:100vw;
+    background-color: antiquewhite;
+}
+.header{
+    height:100%;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url(./HERO_BG.png);
+}
+.top_header{
+    height:10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width:50%;
+}
+.top_background{
+    margin-top: 50px;
+    margin-left: 80px;
+    width:90%;
+    height:80%;
+}
+form{
+    padding: 10px;
+    width:40%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+
+form input{
+    height: 50px;
+}
